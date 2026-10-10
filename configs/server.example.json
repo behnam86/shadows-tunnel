@@ -1,0 +1,10 @@
+{
+  "role": "server",
+  "wss_listen": "0.0.0.0:9443",
+  "listen": "0.0.0.0:8443",
+  "tls_cert": "/etc/letsencrypt/live/tunnel.example.com/fullchain.pem",
+  "tls_key": "/etc/letsencrypt/live/tunnel.example.com/privkey.pem",
+  "token": "REPLACE_WITH_A_LONG_RANDOM_SECRET",
+  "max_connections": 1000,
+  "max_streams": 256
+}

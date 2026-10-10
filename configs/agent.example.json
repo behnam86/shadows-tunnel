@@ -1,0 +1,12 @@
+{
+  "role": "agent",
+  "server_url": "wss://tunnel.example.com:9443/tunnel",
+  "target": "127.0.0.1:443",
+  "token": "REPLACE_WITH_THE_SAME_LONG_RANDOM_SECRET",
+  "ca_file": "",
+  "min_pool": 2,
+  "max_pool": 4,
+  "max_streams": 256,
+  "reconnect_min": "1s",
+  "reconnect_max": "30s"
+}
